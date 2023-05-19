@@ -45,6 +45,60 @@ ModuleNotFoundError                       Traceback (most recent call last)
 
 ModuleNotFoundError: No module named 'geometry'
 
-4) 
+4) Vérifier la méthode random.random:
+import random
+
+
+panier = ["Pomme", "Poire", "Banane", "Ananas", "Orange"]
+
+resultat = random.choice(panier)
+
+print(resultat)
+
+Pomme
+
+import random
+
+
+panier = ["Pomme", "Poire", "Banane", "Ananas", "Orange"]
+
+resultat = random.random(panier)
+
+print(resultat)
+
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~\AppData\Local\Temp\ipykernel_8304\3387905530.py in <module>
+      4 panier = ["Pomme", "Poire", "Banane", "Ananas", "Orange"]
+      5 
+----> 6 resultat = random.random(panier)
+      7 
+      8 print(resultat)
+
+TypeError: Random.random() takes no arguments (1 given)
+
+import random
+
+
+panier = ["Pomme", "Poire", "Banane", "Ananas", "Orange"]
+
+resultat = random.shuffle(panier)
+
+print(resultat)
+
+None
+
+help(random.shuffle)
+
+Help on method shuffle in module random:
+
+shuffle(x, random=None) method of random.Random instance
+    Shuffle list x in place, and return None.
+    
+    Optional argument random is a 0-argument function returning a
+    random float in [0.0, 1.0); if it is the default None, the
+    standard random.random will be used.
+
+
 
 
