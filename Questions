@@ -1,2 +1,14 @@
 Questions Diverses:
--Possibilité d'appeler le résultat d'une ligne précédente ?
+-1) Possibilité d'appeler le résultat d'une ligne précédente ?
+
+print(out[37])
+
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~\AppData\Local\Temp\ipykernel_3388\1398233835.py in <module>
+      1 print(moduloDec)
+----> 2 print(out[37])
+
+NameError: name 'out' is not defined
+
+2) 
