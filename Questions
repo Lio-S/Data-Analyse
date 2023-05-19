@@ -24,5 +24,27 @@ else:
                                                ^
 SyntaxError: invalid syntax
 
-3)
+3) Problème import package geometry:
+
+import geometry
+car = geometry.carre(4)
+tri = geometry.triangle(3, 6, 5)
+
+print(geometry.pi) # -> 3.14159265359
+
+geometry.aire(car) # -> 16
+
+---------------------------------------------------------------------------
+ModuleNotFoundError                       Traceback (most recent call last)
+~\AppData\Local\Temp\ipykernel_3940\3568522255.py in <module>
+----> 1 import geometry.triangle
+      2 car = geometry.carre(4)
+      3 tri = geometry.triangle(3, 6, 5)
+      4 
+      5 print(geometry.pi) # -> 3.14159265359
+
+ModuleNotFoundError: No module named 'geometry'
+
+4) 
+
 
