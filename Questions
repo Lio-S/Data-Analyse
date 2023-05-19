@@ -12,3 +12,17 @@ NameError                                 Traceback (most recent call last)
 NameError: name 'out' is not defined
 
 2) 
+
+nom = input('Quel est votre nom ?')
+if len(nom)>0 :
+    print('Salut '+ nom+ '!' )
+else:
+    print('J ai demandé',**'quel est ton nom'**, '?')
+
+  File "C:\Users\ZElion\AppData\Local\Temp\ipykernel_14112\3009291104.py", line 5
+    print('J ai demandé',**'quel est ton nom'**, '?')
+                                               ^
+SyntaxError: invalid syntax
+
+3)
+
