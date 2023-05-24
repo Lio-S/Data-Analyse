@@ -1,6 +1,11 @@
 Questions Diverses:
 -1) Possibilité d'appeler le résultat d'une ligne précédente ?
+Non, <> variable locale, il faut attribuer la valeur à une variable, et ainsi globaliser/déclarer le résultat
+Ex :
+c=25%2.3
+print(c)
 
+et non:
 print(out[37])
 
 ---------------------------------------------------------------------------
@@ -10,6 +15,7 @@ NameError                                 Traceback (most recent call last)
 ----> 2 print(out[37])
 
 NameError: name 'out' is not defined
+
 
 2) 
 
