@@ -8,27 +8,15 @@ print(c)
 et non:
 print(out[37])
 
----------------------------------------------------------------------------
-NameError                                 Traceback (most recent call last)
-~\AppData\Local\Temp\ipykernel_3388\1398233835.py in <module>
-      1 print(moduloDec)
-----> 2 print(out[37])
 
-NameError: name 'out' is not defined
-
-
-2) 
+2) Possibilité de formater le texte de la fonction print()?
 
 nom = input('Quel est votre nom ?')
 if len(nom)>0 :
     print('Salut '+ nom+ '!' )
 else:
-    print('J ai demandé',**'quel est ton nom'**, '?')
+    print('J ai demandé '+'**quel est ton nom** '+ '?')
 
-  File "C:\Users\ZElion\AppData\Local\Temp\ipykernel_14112\3009291104.py", line 5
-    print('J ai demandé',**'quel est ton nom'**, '?')
-                                               ^
-SyntaxError: invalid syntax
 
 3) Problème import package geometry:
 
